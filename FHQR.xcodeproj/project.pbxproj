@@ -22,6 +22,8 @@
 		B9B180C91945FE0F002EC208 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B180A81945FE0F002EC208 /* UIKit.framework */; };
 		B9B180D11945FE0F002EC208 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9B180CF1945FE0F002EC208 /* InfoPlist.strings */; };
 		B9B180D31945FE0F002EC208 /* FHQRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B180D21945FE0F002EC208 /* FHQRTests.m */; };
+		B9B180DE1945FE4D002EC208 /* FHQRCreateQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B180DD1945FE4D002EC208 /* FHQRCreateQRViewController.m */; };
+		B9B180E11945FE5E002EC208 /* FHQRReadQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B180E01945FE5E002EC208 /* FHQRReadQRViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		B9B180CE1945FE0F002EC208 /* FHQRTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FHQRTests-Info.plist"; sourceTree = "<group>"; };
 		B9B180D01945FE0F002EC208 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B9B180D21945FE0F002EC208 /* FHQRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHQRTests.m; sourceTree = "<group>"; };
+		B9B180DC1945FE4D002EC208 /* FHQRCreateQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHQRCreateQRViewController.h; sourceTree = "<group>"; };
+		B9B180DD1945FE4D002EC208 /* FHQRCreateQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHQRCreateQRViewController.m; sourceTree = "<group>"; };
+		B9B180DF1945FE5E002EC208 /* FHQRReadQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHQRReadQRViewController.h; sourceTree = "<group>"; };
+		B9B180E01945FE5E002EC208 /* FHQRReadQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHQRReadQRViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,10 @@
 				B9B180B91945FE0F002EC208 /* Main_iPad.storyboard */,
 				B9B180BC1945FE0F002EC208 /* FHQRViewController.h */,
 				B9B180BD1945FE0F002EC208 /* FHQRViewController.m */,
+				B9B180DC1945FE4D002EC208 /* FHQRCreateQRViewController.h */,
+				B9B180DD1945FE4D002EC208 /* FHQRCreateQRViewController.m */,
+				B9B180DF1945FE5E002EC208 /* FHQRReadQRViewController.h */,
+				B9B180E01945FE5E002EC208 /* FHQRReadQRViewController.m */,
 				B9B180BF1945FE0F002EC208 /* Images.xcassets */,
 				B9B180AB1945FE0F002EC208 /* Supporting Files */,
 			);
@@ -256,6 +266,8 @@
 			files = (
 				B9B180BE1945FE0F002EC208 /* FHQRViewController.m in Sources */,
 				B9B180B11945FE0F002EC208 /* main.m in Sources */,
+				B9B180E11945FE5E002EC208 /* FHQRReadQRViewController.m in Sources */,
+				B9B180DE1945FE4D002EC208 /* FHQRCreateQRViewController.m in Sources */,
 				B9B180B51945FE0F002EC208 /* FHQRAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,8 @@
 //
 
 #import "FHQRViewController.h"
+#import "FHQRCreateQRViewController.h"
+#import "FHQRReadQRViewController.h"
 
 @interface FHQRViewController ()
 
@@ -24,6 +26,18 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([segue.identifier isEqualToString:@"segueCreateQR"])
+    {
+        NSLog(@"segueCreateQR");
+    }
+    else if([segue.identifier isEqualToString:@"segueReadQR"])
+    {
+        NSLog(@"segueReadQR");
+    }
 }
 
 @end
